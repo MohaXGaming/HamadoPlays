@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links | HamadoPlays - YouTube, Twitch, Twitter, Instagram</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="profile">
+        <img src="your-profile-image.jpg" alt="Profile Picture" class="profile-img">
+        <h1 class="name">HamadoPlays <img src="checkmark.png" alt="Checkmark" class="checkmark"></h1>
+        <p class="bio">Follow my socials!</p>
+        <hr class="divider">
+    </div>
+    <h2 class="socials-heading">Socials:</h2>
+    <div class="links">
+        <a href="https://twitter.com/yourprofile" class="link">YouTube</a>
+        <a href="https://instagram.com/yourprofile" class="link">Twitch</a>
+        <a href="https://youtube.com/yourprofile" class="link">X/Twitter</a>
+        <a href="https://linkedin.com/in/yourprofile" class="link">Instagram</a>
+    </div>
+  <footer>
+      <div class="social-icons">
+          <a href="https://twitter.com/yourprofile" class="social-icon" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://instagram.com/yourprofile" class="social-icon" target="_blank"><i class="fab fa-twitch"></i></a>
+          <a href="https://youtube.com/yourprofile" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://linkedin.com/in/yourprofile" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p>&copy; <span id="year"></span> HamadoPlays. All rights reserved.</p>
+  </footer>
+
+    <script>
+document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
